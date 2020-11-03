@@ -1,0 +1,23 @@
+{
+  "name": "personal_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ryan-szalaty:GitHub1!@github.com/ryan-szalaty/Personal_Blog.git"
+  },
+  "author": "Ryan Szalaty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-szalaty/Personal_Blog/issues"
+  },
+  "homepage": "https://github.com/ryan-szalaty/Personal_Blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}

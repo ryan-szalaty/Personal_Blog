@@ -1,0 +1,90 @@
+html {
+	background: url("../images/coffee-cup.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+.nav-bar {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-nav {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.col-left, .col-right {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	color: white;
+}
+
+.col-left i {
+	font-size: 2.5rem;
+	padding-right: 20px;
+	transition: 0.3s ease;
+}
+
+.col-left i:hover {
+	transform: rotatey(180deg) rotatez(-10deg) translatey(-10%);
+}
+
+.col-right {
+	justify-content: flex-end;
+	font-size: 1.2rem;
+}
+
+.col-right ul li {
+	display: inline-block;
+	padding: 10px 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	transition: 0.3s ease;
+}
+
+li:hover {
+	color: #DAA520;
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+	.col-right {
+		display: none;
+	}
+	
+	.bottom-nav {
+		display: block;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+	
+	.bottom-nav ul {
+		list-style: none;
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.bottom-nav li {
+		list-style: none;
+		display: inline-block;
+		color: white;
+		font-size: 1.2rem;
+		transition: 0.3s ease;
+	}
+	
+	.bottom-nav li:hover {
+		color: #DAA520;
+		cursor: pointer;
+	}
+}
